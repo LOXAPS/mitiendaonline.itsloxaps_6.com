@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Tienda de Dropshipping</title>
+    <title>Sarez - Tu Tienda de Dropshipping</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -57,7 +57,7 @@
 
 <body>
     <header>
-        <h1>Mi Tienda de Dropshipping</h1>
+        <h1>Sarez - Tu Tienda de Dropshipping</h1>
         <p>Descubre productos únicos a precios irresistibles</p>
     </header>
 
@@ -91,7 +91,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2023 Mi Tienda de Dropshipping. Todos los derechos reservados.</p>
+        <p>&copy; 2023 Sarez - Tu Tienda de Dropshipping. Todos los derechos reservados.</p>
     </footer>
 
     <script>
