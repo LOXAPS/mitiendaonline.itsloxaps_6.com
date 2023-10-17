@@ -1,7 +1,93 @@
-echo "# mitiendaonline.itsloxaps_6.com" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/LOXAPS/mitiendaonline.itsloxaps_6.com.git
-git push -u origin main
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda de Dropshipping</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .producto {
+            background-color: white;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .producto img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a Mi Tienda de Dropshipping</h1>
+        <p>Encuentra productos increíbles a precios increíbles</p>
+    </header>
+
+    <div class="container">
+        <div class="producto">
+            <img src="ruta_a_tu_imagen_producto1.jpg" alt="Producto 1">
+            <h2>Producto 1</h2>
+            <p>Descripción del producto. Precio: $XX.XX</p>
+            <button onclick="comprarProducto('Producto 1', XX.XX)">Comprar ahora</button>
+        </div>
+
+        <div class="producto">
+            <img src="ruta_a_tu_imagen_producto2.jpg" alt="Producto 2">
+            <h2>Producto 2</h2>
+            <p>Descripción del producto. Precio: $XX.XX</p>
+            <button onclick="comprarProducto('Producto 2', XX.XX)">Comprar ahora</button>
+        </div>
+
+        <!-- Agrega más productos según sea necesario -->
+
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Mi Tienda de Dropshipping. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function comprarProducto(nombreProducto, precioProducto) {
+            alert(`¡Has comprado ${nombreProducto} por ${precioProducto}!`);
+            // Aquí puedes agregar lógica adicional, como enviar el pedido a un servidor.
+        }
+    </script>
+</body>
+
+</html>
+
